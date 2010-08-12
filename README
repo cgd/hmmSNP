@@ -1,0 +1,49 @@
+hmmSNP README FILE
+==================
+
+see Szatkiewicz JP, Beane GL, Ding Y, Hutchins L,
+  Pardo-Manuel de Villena F, Churchill GA. "An imputed genotype
+  resource for the laboratory mouse"
+
+
+
+This code is RESEARCH GRADE, however if you experience any errors or crashes, 
+please report them to glen.beane@jax.org
+
+The code has been compiled and tested on various Linux flavors and Mac OS X. 
+It may work with Cygwin on Windows, but it is untested. A POSIX environment 
+is assumed.
+
+This code is released under the GPL version 3 or (at your option) any later 
+version.  See the file named COPYING for the GPLv3 terms.  
+
+
+
+
+INSTALATION
+-----------
+
+
+This code uses a standard GNU autotools based build system.  If you obtained
+the source from out Github, then you will need to run the script "autogen.sh" 
+to run the autotools. If you downloaded a .tar.gz file this step should be 
+unnecessary.  
+
+  ./autogen.sh
+  
+See INSTALL for generic installation instructions. Here are the basics of 
+compiling and installing hmmSNP
+
+ - these commands will result in hmmSNP installed into /usr/local/bin
+
+     ./configure
+     make
+     sudo make install
+  
+-  If you do not have sudo and wish to install in some other location, you can 
+   pass the --prefix option to the configure script.  For example, these
+   commands will install the hmmSNP executable into /home/username/bin/
+
+     ./configure --prefix=/home/username
+     make
+     make install

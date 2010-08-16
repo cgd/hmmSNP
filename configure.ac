@@ -3,7 +3,7 @@
 
 
 AC_PREREQ(2.59)
-AC_INIT(hmmSNP, 1.3.1, glen.beane@jax.org)
+AC_INIT(hmmSNP, 1.3.2, glen.beane@jax.org)
 AC_CONFIG_SRCDIR([src/CLI.c])
 AC_CONFIG_AUX_DIR([buildutils])
 AM_CONFIG_HEADER([src/include/config.h])

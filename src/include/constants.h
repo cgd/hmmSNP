@@ -40,7 +40,7 @@
 
 
 #define HMM_VERSION VERSION
-#define HMM_RELEASE_DATE "2/3/2010"
+#define HMM_RELEASE_DATE "8/16/2010"
 
 /* parameter defaults */
 #define NUM_HAPLOTYPES_DEFAULT 3

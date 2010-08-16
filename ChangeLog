@@ -1,0 +1,24 @@
+1.3.1
+    * public release under the GPL
+    * additional code refactoring
+    * respect $TMPDIR env variable if set
+    
+1.3.0:
+    * code refactoring to improve maintainability
+	* allow users to specify emission prior values with new --emission_prior
+      command line option
+    * removed pruning command line options, pruning algorithms are not 
+      maintained and currently not in a working state
+
+1.2.5:
+   * fixed bug where 4 annotation columns were always assumed when writing out 
+     the path file
+
+1.2.4:
+   * fix segmentation fault if a strain is missing a genotype (now we assume 'N')
+   
+1.2.3:
+   * moved to the GNU build system
+   * fixed bug reported by Sharon Tsaih with RIL data where one parent type is 
+     missing and we can't guess missing parent type from derived strains
+
